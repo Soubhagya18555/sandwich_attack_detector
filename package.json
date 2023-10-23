@@ -1,0 +1,17 @@
+{
+  "name": "sandwich_attack_detector",
+  "version": "1.0.0",
+  "description": "Detect sandwichable transactions from mempool like simulation patterns",
+  "author": "Soubhagya",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}
